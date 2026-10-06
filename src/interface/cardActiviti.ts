@@ -41,9 +41,6 @@ export async function createCard(
         onerror="this.src='https://placehold.co/400x250?text=Sin+Imagen';"
       />
     </div>
-
-    <p class="card-question">${options.questionText}</p>
-
     <div class="card-metrics">
       <div><strong>Precio:</strong> <span class="price-symbol">${simbolosPrecio}</span></div>
       <div><strong>Accesibilidad:</strong> Nivel ${options.accessibilityLevel}</div>
